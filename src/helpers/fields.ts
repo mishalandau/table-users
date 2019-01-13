@@ -1,7 +1,7 @@
-interface obj {
-    [key: string]: string;
+export interface IField {
+    key: string;
+    value: string;
 }
-
 
 
 export const isEmptyField = <T extends any>(obj: T): boolean => {
