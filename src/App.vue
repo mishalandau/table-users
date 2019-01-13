@@ -5,6 +5,7 @@
 		:perPageOptions="perPageOptions" />
     <br />
 	<AddUser @addUser="addUser" />
+    <br />
 	<UserTable
 		:sort.sync="sort"
 		:sortActiveField.sync="sortActiveField"
