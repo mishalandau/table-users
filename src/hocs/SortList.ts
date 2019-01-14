@@ -1,10 +1,6 @@
 import { Vue, Component, Prop } from 'vue-property-decorator';
 import { SortType } from '@/modules/Sort';
-
-interface IField {
-    key: string;
-    value: string;
-}
+import { IField } from '@/helpers/fields';
 
 export default (cmp: Vue.Component) => {
     @Component

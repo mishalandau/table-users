@@ -15,12 +15,6 @@ import UserSortSelect from '@/components/UserSortSelect.vue';
 import User from '@/modules/User';
 import { IField } from '@/helpers/fields';
 
-enum types {
-    ASC,
-    DESC,
-    DISABLE,
-}
-
 @Component({
     components: {
         UserList,
